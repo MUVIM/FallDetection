@@ -7,5 +7,5 @@ For access to the dataset, email: bing.ye@utoronto.ca. Please set the subject li
 
 In the file sample code, code is shared that can be referenced to help build a data pipeline and train a model. This code builds the work shared at: https://github.com/JJN123/Fall-Detection
 
-Please use software such as 7-Zip to uncompress/unzip downloaded files. If data errors or loss persist, please try to redownload files. As mentioned in the dataset – certain trials were lost due to data corruption during record. These files are largely removed from the dataset prior to be shared, however falls Fall49/, Fall143/, Fall159/ were included erroneously.
+Please use software such as 7-Zip to uncompress/unzip downloaded files. If data errors or loss persist, please try to redownload files. As mentioned in the dataset – certain trials were lost due to data corruption during record. These files are largely removed from the dataset prior to be shared, however RGB Falls 49, 143 and 159 were included erroneously.
 
