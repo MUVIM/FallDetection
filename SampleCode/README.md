@@ -8,9 +8,8 @@ Once data is downloaed, it must be made in to an H5PY file format for efficient 
 
 Example:
 
-Camera
-
-- csv
+CameraName(Main Directory)
+- labels.csv
 - Fall
   - Fall1
     - Image1
