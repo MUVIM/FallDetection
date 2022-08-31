@@ -1,8 +1,6 @@
 This code is meant to allow you to train a model on the MUVIM dataset. The dataset must be downloaded separately.
 
-PLEASE DO NOT EMAIL FOR INSTRUCTIONS ON CODE TROUBLE SHOOTING.
-
-Code is provided as a starting point and to help allow other to train models easier.
+Code is provided as a starting point and to help allow other to train models easier. We kindly ask you do not email asking for help to get the code working. Debugging can be a length process due to many different reasons, and such we offer no support for the code base. However, please feel free to reference the code and use parts as you wish. 
 
 Once data is downloaed, it must be made in to an H5PY file format for efficient loading. This can be done with the provided dataset creator script. This scripts expects files to be organized in the following format. A main directory for the camera that contains two folders - Fall and NonFall. Each one of these folders contains a folder for each video - Fall1, Fall2... etc. (The same for NonFall - NonFall1, NonFall2..etc). These folders then contain a series of images that correspond to video frames.
 
