@@ -1,13 +1,11 @@
-# MUVIM
- 
-This code is meant to allow you to train a model on the MUVIM dataset. The dataset must be downloaded seperately.
+# **Multi Visual Modality Fall Detection Dataset (MUVIM)**
 
-In order to efficently load data quicker it must be made in to an H5PY file format. This can be done with the provided datasetcreator script. In order for this to work you must have your files organized in the following format. A main directory for the camera that contains two folders - fall and nonfall. Each one of these folders contains a folder for each video - Fall1, Fall2... etc. (The same for NonFall - NonFall1, NonFall2..etc). These folders then contain a series of images that correspond to video frames. 
+We introduce a novel multi-modality dataset (MUVIM) that contains four visual modalities: infra-red, depth, RGB and thermal cameras. These modalities offer benefits such as obfuscated facial features and improved performance in low-light conditions. Please read our pre-print here for more information: [https://arxiv.org/abs/2206.12740](https://arxiv.org/abs/2206.12740)
 
-Additionally paths for the location of the H5PY files must be updated within the script. 
-Locations for the datastorage must also be updated including the location of CSVs containg labels. The CSV file should be located in the same folder as the Falls and NonFalls. Please reference the MUVIM dataset labels CSVs to see how they should be formated. You can specify parameters here such as inpainting and image size. In order to run correctly, additional project directorys and files must also be included as shown in the directory.
+For access to the dataset, email: bing.ye@utoronto.ca. Please set the subject line too "Fall detection data access request", and include your include title, email address, work address, and affiliation. In addition, a data privacy waiver will have to be completed.
 
 
-Once you have a dataset created you can run one of the models in order to train and test.
+In the file sample code, code is shared that can be referenced to help build a data pipeline and train a model. This code builds the work shared at: https://github.com/JJN123/Fall-Detection
 
+Please use software such as 7-Zip to uncompress/unzip downloaded files. If data errors or loss persist, please try to redownload files. As mentioned in the dataset – certain trials were lost due to data corruption during record. These files are largely removed from the dataset prior to be shared, however falls Fall49/, Fall143/, Fall159/ were included erroneously.
 
